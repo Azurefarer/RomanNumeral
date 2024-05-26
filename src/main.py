@@ -16,6 +16,7 @@ def main():
         numeral = input("Give me a Roman Numeral to Translate: ")
         if numeral == "no":
             flag = 0
+            continue
         a = parser(numeral)
         a.go()
         if a.valid == True:
